@@ -86,11 +86,11 @@ return {
           capabilities = capabilities,
         })
       end,
-     ["emmet_ls"] = function()
+      ["emmet_ls"] = function()
         -- configure emmet language server
         lspconfig["emmet_ls"].setup({
           capabilities = capabilities,
-          filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less"},
+          filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less" },
         })
       end,
       ["lua_ls"] = function()
