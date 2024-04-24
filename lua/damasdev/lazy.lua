@@ -18,5 +18,5 @@ require("lazy").setup({ { import = "damasdev.plugins" }, { import = "damasdev.pl
   },
   change_detection = {
     notify = false,
-  }
+  },
 })
